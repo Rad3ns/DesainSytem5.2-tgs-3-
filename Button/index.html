@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+<style>
+    #button-warrper {
+        display: flex;
+        font-family: 'roboto';
+        border-radius: 10px;
+        padding: 5px 10px;
+        border : 10px solid;
+    }
+
+    .btn.btn:before {
+        background-color: aqua;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        padding: 5px 10px;
+        border : 10 px solid;
+    }
+
+    .btn.btn:after {
+        background-color: cyan;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        border : 10 px solid;
+
+    }
+    .btn.btn:hover{
+        background-color: aquamarine;
+        border-radius: 12px;
+        padding: 5px 10px;
+    }
+
+    .btn1 {
+        background: color #ffffff;
+        border-color: #007BFF;
+        color: #007BFF;
+    }
+
+    .btn2 {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #ffffff;
+    }
+
+    .btn3 {
+        background-color: #ffffff;
+        border-color: black;
+        color: black;
+    }
+
+</style>
+
+<body>
+    <div class="button-wrapper">
+        <button class="btn  btn1">Button 1</button>
+        <button class="btn btn2">Button 2</button>
+        <button class="btn  btn3"> Button 3</button>
+    </div>
+</body>
+
+</html>
